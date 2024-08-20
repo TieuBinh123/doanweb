@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="./css/Chung.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <div class="all">
+        <!-- mở đầu -->
+        <div class="header">
+            <div class="grid">
+                <div class="header_dau">
+                    <ul class="header_dau-list">
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Chính sách giao hàng</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Chính sách đổi trả hàng</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Hướng dẫn thanh toán</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_search">
+                    <div class="logo"></br>
+                        <a href="./index.html" class="logo1">
+                            <svg class="style_logo">
+                                <text x='20' y='40' font-size='2.5rem'fill='white'>Bookstore</text>
+                            </svg>
+                            <svg class="style_logo-media">
+                                <text x='30%' y='20' font-size='2.5rem'fill='white'>Bookstore</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="media-header">
+                        <div class="menu-media">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn"><i class="list-icon fa-solid fa-list"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="./vanhoc.html">Văn Học</a>
+                                  <a href="./thieunhi.html">Thiếu Nhi</a>
+                                  <a href="./tamlikinang.html">Tâm Lí Kĩ Năng</a>
+                                  <a href="./kinhte.html">Kinh Tế</a>
+                                  <a href="./sachgiaokhoa.html">Sách Giáo Khoa</a>
+                                  <a href="./fereign.html">Fereign Books</a>
+                                  <a href="./vanphongpham.html">Văn Phòng Phẩm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_search-item">
+                            <input type="text" class="header_search-item-input" placeholder="Tìm kiếm sản phẩm mong muốn...">
+                            <button class="header_search-item-search">
+                                <i class="header_search-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <div class="header_login">
+                            <a href="./dk.html"><i class="header_login-icon fa-solid fa-user"></i></a>
+                            <a class="login" href="./dn.html">Đăng nhập </a>
+                            <span id="betweend">/</span>
+                            <a class="dangki" href="/dk.html">Đăng kí</a>
+                        </div>
+                        <div class="header_cart">
+                            <div class="header_cart-wrap">
+                                <a href="./cart.html"><i class="header_cart-icon fa-solid fa-cart-arrow-down"></i></a>
+                                <div class="nocart header_list-nocart">
+                                    <img src="./img/no-cart.png" alt="" class="header_nocart">
+                                    <a class="content_nocart">Chưa có sản phẩm nào</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Thân -->
+        <div class="container">
+            <div class="title">
+                <a class="Giohang-title1">GIỎ HÀNG <span>(1 SẢN PHẨM)</span></a>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="left-content">
+                    <div class="tittle_left-content">
+                        <div class="tittle_left-content_1"><a>Sản phẩm</a></div>
+                        <div class="tittle_left-content_2"><a>Số lượng</a></div>
+                        <div class="tittle_left-content_3"><a>Thành tiền</a></div>
+                    </div>
+                    <div class="content_left-content">
+                        <form action="">
+                            <input type="checkbox" class="input-content_left-content">
+                        </form>
+                        <a href="./sp.html">
+                            <img src="./img/cart.jpg" alt="" class="img-content_left-content">
+                        </a>
+                        <div class="name_left-content">
+                        </br> 
+                            <a href="./sp.html" class="name_left-content_1">Hello Các Bạn Mình Là Tôi Đi Code Dạo</a></br></br></br></br></br></br>
+                            <b class="name_left-content_2">164.430 đ</b>
+                            <a class="name_left-content_3">189.000 đ</a>
+                        </div>
+                        <div class="soluong-content_left-content">
+                            <div class="khung_soluong-content_left-content">
+                                <a href="#" class="khung_soluong-content_left-content1">-&nbsp;</a>
+                                <a class="khung_soluong-content_left-content2">1&nbsp;</a>
+                                <a href="#" class="khung_soluong-content_left-content3">+</a>
+                            </div>
+                        </div>
+                        <div class="gia-content_left-content">
+                        </br></br></br></br>
+                            <b class="gia-content_left-content1">164.430 đ</b>
+                        </div>
+                        <div class="trash-content_left-content">
+                            <a href="#"><i class="fa-solid fa-trash-can trash"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="right-content-title">
+                        <div class="right-content-title1"><a>Thành tiền</a></div>
+                        <div class="right-content-title2"><a>164.430 đ</a></div>
+                    </div>
+                    <div class="gach"></div>
+                    <div class="right-content-content">
+                        <div class="right-content-content_title1"><b>Tổng Số Tiền (gồm VAT)</b></div>
+                        <div class="right-content-content_title2"><a>164.430 đ</a></div>
+                        <a href="#">
+                            <div class="right-content-thanhtoan">
+                                <a href="#" class="right-content-thanhtoan1">Thanh toán</a>
+                            </div>
+                        </a>    
+                    </div>
+                    
+                </div>
+            </div>
+           
+            
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer_viencontent">
+                <div class="footer_top">
+                    <i class="fa-solid fa-circle icon-footer1"></i>
+                    <i class="fa-solid fa-circle icon-footer2"></i>
+                    <i class="fa-solid fa-circle icon-footer3"></i>
+                </div>
+                <div class="footer_content">
+                    <div class="footer-left">
+                        <a class="footer-left-gioithieu" href="./gioithieu.html">Về chúng tôi</a>
+                        <p class="footer-left-content">Nhóm 14: đồ án : web bán sách</p>
+                        <i class="fa-brands fa-facebook-f icon-footer-left"></i>
+                        <i class="fa-brands fa-twitter icon-footer-left"></i>
+                        <i class="fa-brands fa-instagram icon-footer-left"></i>
+                        <i class="fa-brands fa-youtube icon-footer-left"></i>
+                    </div>
+                    <div class="footer-right">
+                        <h2 class="footer-head">Thông tin liên hệ</h2>
+                        <i class="fa-solid fa-location-dot icon-footer-left"></i>
+                        <a class="footer-text1">140 Lê trọng tấn</a></br>
+                        <a class="footer-text2">Tây Thành, Tân Phú</a></br>
+                        <a class="footer-text2">Thành phố Hồ chí minh</a></br></br>
+                        <i class="fa-solid fa-phone icon-footer-left icon-footer3"></i>
+                        <a class="footer-text3">+84387093945</a></br></br>
+                        <i class="fa-solid fa-envelope icon-footer-left icon-footer3"></i>
+                        <a class="footer-text3">tieubinhd1@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

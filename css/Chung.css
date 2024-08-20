@@ -1,0 +1,30 @@
+* {
+    box-sizing: inherit;
+    margin: auto;
+    padding: auto;
+}
+a{
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_full-width{
+    width: 100%;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-left-gioithieu{
+    font-size: 15px;
+    color: white;
+}

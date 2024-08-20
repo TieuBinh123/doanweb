@@ -1,0 +1,360 @@
+@media screen and (min-width: 769px) {
+    /* For desktop: */
+    .container{
+        height: 1185px;
+    }
+    .content{
+        width: 1145px;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 15px;
+    }
+    .contentmain{
+        background-color: white;
+        width: 100%;
+        height: 550px;
+        margin-top: 15px;
+        box-shadow: 2px 3px 5px rgb(122, 121, 121);
+    }
+    .content-img{
+        width: 530px;
+        height: 80%;
+        float: left;
+    }
+    
+    #slider{
+        width: 100%;
+        height: 100%;
+    }
+    .content-img1{
+        position: relative;
+        width: 400px;
+        height: 400px;
+        box-sizing: border-box;
+        margin: 25px 10px 10px 50px;
+    }
+    .button-left{
+        position: absolute;
+        top: 175px;
+        left: 0;
+    }
+    .button-right{
+        position: absolute;
+        top: 175px;
+        right: 0;
+    }
+    .content-text{
+        width: 610px;
+        float: left;
+        padding: 35px 0 0 0;
+        font-size: 15px;
+    }
+    .content-text1{
+        margin-top: 15px;
+    }
+    .content-text2{
+        padding-left: 160px;
+    }
+    .content-text3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content-text4{
+        padding-left: 142px;
+    }
+    i{
+        color: rgb(128, 123, 123);
+    }
+    .content-text5{
+        color: rgb(240, 195, 112);
+    }
+    .content-text11{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content-text12{
+        color: red;
+        font-size: 25px;
+    }
+    .content-text6{
+        margin-bottom: 15px;
+    }
+    .content-text7{
+        padding-left: 40px;
+        color: black;
+    }
+    .content-text8{
+        margin-bottom: 25px;
+    }
+    .content-text9{
+        padding-left: 52px;
+        color: black;
+    }
+    .khung-content{
+        border: 1px solid black;
+        width: 90px;
+        height: 30px;
+        border-radius: 7px;
+        display: flex;
+        font-size: 15px;
+        margin: -20px 0 0 85px;
+    }
+    .khung-content-1{
+        color: black;
+        font-size: 20px;
+    }
+    .content-buy{
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+    .themvaogio{
+        width: 190px;
+        height: 40px;
+        background-color: white;
+        border: 2px solid red;
+        border-radius: 70px;
+        float: left;
+        margin: 10px 0 0 50px;
+        text-align: center;
+    }
+    .themvaogio-content-buy{
+        color: red;
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        padding: 10px 0 0 0px;
+    }
+    .muangay{
+        width: 190px;
+        height: 40px;
+        background-color: red;
+        border: 2px solid red;
+        border-radius: 70px;
+        float: left;
+        margin: 10px 0 0 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .muangay-content-buy{
+        color: white;
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        
+    }
+    .thongtin-content{
+        background-color: white;
+        width: 100%;
+        height: 550px;
+        margin-top: 15px;
+        box-shadow: 2px 3px 5px rgb(139, 138, 138);
+    }
+    .thongtin-content-text{
+        box-sizing: border-box;
+        width: 1115px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .thongtin-content-text1{
+        padding: 15px 0 15px 0;
+    }
+    .thongtin-content-text4{
+        color: black;
+    }
+    .grid_thongtin-content{
+        display: grid;
+        grid-template-columns: 300px 500px;
+        grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    }
+    .thongtin-content-text2{
+        text-align: left;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .thongtin-content-text3{
+        text-align: left;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .button-lr{
+        font-size: 17px;
+        padding: 0 10px 0 10px;
+    }
+    .button-lr:hover{
+        background-color: rgb(163, 165, 167);
+    }
+}  
+@media screen and (max-width: 768px) {
+
+    /* display: none */
+    .content-title, .content-text1, .content-text3, 
+    .content-text6, .content-text10, .khung-content
+    {
+        display: none;
+    }
+    .header_search-icon{
+        padding-top: 0;
+    }
+    .logo{
+        padding-top: 12px;
+    }
+    .header_search-item {
+        margin-bottom: -10px;
+    }
+    .button-lr{
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+    .container{
+        height: 1185px;
+    }
+    .button-left1{
+        font-size: 17px;
+        padding: 0 10px 0 10px;
+    }
+    .button-left1:hover{
+        background-color: rgb(169, 172, 172);
+        padding: 5px 10px 5px 10px;
+    }
+    .content{
+        width: 94%;
+        height: 100%;
+        margin: 0px 50px 15px 20px;
+        box-sizing: border-box;
+        padding-top: 1px;
+    }
+    .contentmain{
+        background-color: white;
+        width: 100%;
+        height: 550px;
+        margin-top: 15px;
+        box-shadow: 2px 3px 5px rgb(122, 121, 121);
+    }
+    .content-img{
+        width: 100%;
+        height: 70%;
+    }
+    
+    #slider{
+        width: 100%;
+        height: 100%;
+    }
+    .content-img1{
+        position: relative;
+        width: 55%;
+        box-sizing: border-box;
+        margin: 15px 10px 10px 150px;
+        padding-top: 15px;
+    }
+    .button-left{
+        position: absolute;
+        top: 175px;
+        left: 0;
+    }
+    .button-right{
+        position: absolute;
+        top: 175px;
+        right: 0;
+    }
+    .content-text{
+        width: 100%;
+        padding: 35px 0 0 35px;
+        font-size: 15px;
+    }
+    i{
+        color: rgb(128, 123, 123);
+        padding-top: 10px;
+    }
+    .content-text5{
+        color: rgb(240, 195, 112);
+    }
+    .content-text11{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content-text12{
+        color: red;
+        font-size: 25px;
+    }
+    .content-text8{
+        margin-bottom: 25px;
+    }
+    .content-text9{
+        padding-left: 52px;
+        color: black;
+    }
+    .content-buy{
+        width: 80%;
+        height: 9%;
+        position: fixed;
+        bottom: 0px;
+        margin-left: 8%;
+        background-color: white;
+    }
+    .themvaogio{
+        width: 60%;
+        height: 100%;
+        float: left;
+        margin: 10px 0 0 0px;
+        text-align: center;
+    }
+    .themvaogio-content-buy{
+        color: red;
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        padding: 10px 0 0 0px;
+    }
+    .muangay{
+        width: 40%;
+        height: 100%;
+        background-color: red;
+        float: left;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        padding-top: 25px;
+    }
+    .muangay-content-buy{
+        color: white;
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        
+    }
+    .thongtin-content{
+        background-color: white;
+        width: 100%;
+        height: 550px;
+        margin-top: 15px;
+        box-shadow: 2px 3px 5px rgb(139, 138, 138);
+    }
+    .thongtin-content-text{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding-left: 25px;
+    }
+    .thongtin-content-text1{
+        padding: 15px 0 15px 0;
+    }
+    .thongtin-content-text4{
+        color: black;
+    }
+    .grid_thongtin-content{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    }
+    .thongtin-content-text2{
+        text-align: left;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .thongtin-content-text3{
+        text-align: left;
+        font-size: 15px;
+        margin-left: 0;
+    }
+}

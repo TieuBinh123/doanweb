@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/Chung.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/img-run.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tatdeptrai.github.io_files/all.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+    </style>
+</head>
+<body>
+    <div class="all">
+        <!-- mở đầu -->
+        <div class="header">
+            <div class="grid">
+                <div class="header_dau">
+                    <ul class="header_dau-list">
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Chính sách giao hàng</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Chính sách đổi trả hàng</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Hướng dẫn thanh toán</a>
+                        </li>
+                        <li class="header_dau_item">
+                            <a href="#" class="header_dau-list-item">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_search">
+                    <div class="logo"></br>
+                        <a href="./index.html" class="logo1">
+                            <svg class="style_logo">
+                                <text x='20' y='40' font-size='2.5rem'fill='white'>Bookstore</text>
+                            </svg>
+                            <svg class="style_logo-media">
+                                <text x='30%' y='20' font-size='2.5rem'fill='white'>Bookstore</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="media-header">
+                        <div class="menu-media">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn"><i class="list-icon fa-solid fa-list"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="./vanhoc.html">Văn Học</a>
+                                  <a href="./thieunhi.html">Thiếu Nhi</a>
+                                  <a href="./tamlikinang.html">Tâm Lí Kĩ Năng</a>
+                                  <a href="./kinhte.html">Kinh Tế</a>
+                                  <a href="./sachgiaokhoa.html">Sách Giáo Khoa</a>
+                                  <a href="./fereign.html">Fereign Books</a>
+                                  <a href="./vanphongpham.html">Văn Phòng Phẩm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_search-item">
+                            <input type="text" class="header_search-item-input" placeholder="Tìm kiếm sản phẩm mong muốn...">
+                            <button class="header_search-item-search">
+                                <i class="header_search-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <div class="header_login">
+                            <a href="./dk.html"><i class="header_login-icon fa-solid fa-user"></i></a>
+                            <a class="login" href="./dn.html">Đăng nhập </a>
+                            <span id="betweend">/</span>
+                            <a class="dangki" href="./dk.html">Đăng kí</a>
+                        </div>
+                        <div class="header_cart">
+                            <div class="header_cart-wrap">
+                                <a href="./cart.html"><i class="header_cart-icon fa-solid fa-cart-arrow-down"></i></a>
+                                <div class="nocart header_list-nocart">
+                                    <img src="./img/no-cart.png" alt="" class="header_nocart">
+                                    <a class="content_nocart">Chưa có sản phẩm nào</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Thân -->
+        <div class="container">
+            <div id="link-header">
+                <div class="slideshow-container">
+                      <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./img/home_webdesign_slide1_bg.jpg" class="run-img">
+                        <div class="text"></div>
+                      </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./img/home_webdesign_slide2_bg.jpg" class="run-img">
+                        <div class="text"></div>
+                      </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./img/home_webdesign_slide3_bg.jpg" class="run-img">
+                        <div class="text"></div>
+                      </div>
+                   <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./img/home_webdesign_slide4_bg.jpg" class="run-img">
+                        <div class="text"></div>
+                   </div> 
+                   <div style="text-align:center">
+                        <span class="dot dot1" onclick="currentSlide(0)"></span>
+                        <span class="dot dot2" onclick="currentSlide(1)"></span>
+                        <span class="dot dot3" onclick="currentSlide(2)"></span>
+                        <span class="dot dot4" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            
+           </div>
+           <!-- Menu -->
+            <div class="list">
+                <div class="list-name">
+                    <i class="list-icon fa-solid fa-list"></i>
+                    <b>Danh mục sản phẩm</b>
+                </div>
+                <div class="list-khung"></div>
+                <div class="list-danhmuc">
+                    <a href="./vanhoc.html" class="list-danhmuc1">
+                        <img src="./img/van-hoc.png" alt="" class="img1">
+                        <div class="list-text1">Văn học</div>
+                    </a>
+                    <a href="./thieunhi.html" class="list-danhmuc2">
+                        <img src="./img/thieu-nhi.png" alt="" class="img2">
+                        <div class="list-text2">Thiếu nhi</div>
+                    </a>
+                    <a href="./tamlikinang.html" class="list-danhmuc3">
+                        <img src="./img/tam-ly-ky-nang.png" alt="" class="img3">
+                        <div class="list-text3">Tâm lí kĩ năng</div>
+                    </a>
+                    <a href="./kinhte.html" class="list-danhmuc4">
+                        <img src="./img/kinh-te.png" alt="" class="img4">
+                        <div class="list-text4">Kinh tế</div>
+                    </a>
+                    <a href="./sachgiaokhoa.html" class="list-danhmuc5">
+                        <img src="./img/sach-giao-khoa.png" alt="" class="img5">
+                        <div class="list-text5">Sách giáo khoa</div>
+                    </a>
+                    <a href="./fereign.html" class="list-danhmuc6">
+                        <img src="./img/foreign-books.png" alt="" class="img6">
+                        <div class="list-text6">Fereign Books</div>
+                    </a>
+                    <a href="./vanphongpham.html" class="list-danhmuc7">
+                        <img src="./img/8935001805168.jpg" alt="" class="img7">
+                        <div class="list-text7" style="text-decoration: none;">Văn phòng phẩm</div>
+                    </a>
+                    <div class="list-danhmuc-content">
+                        <a href="./vanhoc.html">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <!-- sale -->
+            <div class="sach sale">
+                <div class="sp-menu sach-text sale1">
+                    <a href="#" class="sp-menu1">
+                        <i class="fa-solid fa-fire"></i> &nbsp;FLASH SALE</a>
+                    <a class="kt">Kết thúc trong</a>
+                    <p id="demo"></p>
+                </div>
+                <div class="xuhuong-khung"></div>
+                <div class="sach-content">
+                    <div class="lf">
+                        <div class="grid-sach">
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sale1.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Thần số học</a></br></br>
+                                    <p style="color: red;">131000</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sale2.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Rèn luyện tư duy phản biện</a></br></br>
+                                    <p style="color: red;">59000</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sale3.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Hoang Dã</a></br></br>
+                                    <p style="color: red;">67.000</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sale4.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Vietmath - Cùng Con Giỏi...</a></br></br>
+                                    <p style="color: red;">60.000</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sale5.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Bút Chì Màu 12 Màu Clas...</a></br></br>
+                                    <p style="color: red;">13000</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-xemthem sach-xemthem">
+                            <a style="color: white;" href="./sachgiaokhoa.html">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sp hot -->
+            <div class="sanphamhot">
+                <div class="xuhuong">
+                    <i class="fa-solid fa-fire icon-xuhuong"></i>
+                    <b class="xuhuong-text">XU HƯỚNG MUA SẮM</b>
+                </div>
+                <div class="sp-menu">
+                    </br>
+                    <a href="#" class="sp-menu1">Xu hướng theo ngày</a>
+                    <a href="#" class="sp-menu2">Sách hot giảm sốc</a>
+                    <a href="#" class="sp-menu3">Bestseller Ngoại Văn</a>
+                </div>
+                <div class="xuhuong-khung"></div>
+                <div class="sp-content">
+                    <div class="lf">
+                        <div class="grid-content">
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong1.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Hello Các Bạn Mình Là Tôi Đi Code Dạo</a></br></br>
+                                    <p style="color: red;">132.300đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong2.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Chú Thuật Hồi Chiến - Tập 3 - Tặng Kèm Obi Và Card Nhựa</a></br></br>
+                                    <p style="color: red;">30.000đ</p></br></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong3.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Việt Ma Tân Lục - Quyển 2</a></br></br>
+                                    <p style="color: red;">126.150đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong4.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Việt Ma Tân Lục - Quyển 3</a></br></br>
+                                    <p style="color: red;">126.150đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong5.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Việt Ma Tân Lục - Quyển 1</a></br></br>
+                                    <p style="color: red;">126.150đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong6.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Bộ Sách Luật Hấp dẫn - Law of Attraction (Bộ 3 Cuốn)</a></br></br>
+                                    <p style="color: red;">345.390đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong7.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Combo Sách Osho (Bộ 3 Cuốn)</a></br></br>
+                                    <p style="color: red;">406.290đ</p></br>
+                                    </br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong8.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">IKIGAMI - Tập 1 - Tặng Kèm Bookmark</a></br></br>
+                                    <p style="color: red;">45.000đ</p></br></br></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong9.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Boy Meets Maria - Bản Đặc Biệt - Tặng Kèm 2 Bookmark...</a></br></br>
+                                    <p style="color: red;">99.000đ</p></br></br></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/xuhuong10.jpg" alt="" class="grid-img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">ONE ROOM ANGEL - Bản Đặc Biệt - Tặng Kèm Bookmark...</a></br></br>
+                                    <p style="color: red;">99.000đ</p></br></br></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-xemthem bo">
+                        <a style="color: white;" href="./vanhoc.html">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sách giáo khoa -->
+            <div class="sach">
+                <div class="sp-menu sach-text">
+                    <a href="#" class="sp-menu1">Sách giáo khoa</a>
+                    <a href="#" class="sp-menu2">Sách kham khảo</a>
+                </div>
+                <div class="xuhuong-khung"></div>
+                <div class="sach-content">
+                    <div class="lf">
+                        <div class="grid-sach">
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sgk1.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Sách Giáo Khoa Bộ Lớp 12 - Sách Bài Học (Bộ ...</a></br></br>
+                                    <p style="color: red;">193.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sgk5.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Sách Giáo Khoa Bộ Lớp 5 - Sách Bài Học (Bộ 20 ...</a></br></br>
+                                    <p style="color: red;">218.600đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sgk2.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Sách giáo khoa lớp 11 - Sách Bài Học (Bộ 14 ...</a></br></br>
+                                    <p style="color: red;">199.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sgk3.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Sách giáo khoa lớp 12 - Sách Bài Học (Bộ 14 ...</a></br></br>
+                                    <p style="color: red;">194.900đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/sgk4.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Sách giáo khoa lớp 6 - Chân trời sáng tạo -...</a></br></br>
+                                    <p style="color: red;">270.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-xemthem sach-xemthem">
+                            <a style="color: white;" href="./sachgiaokhoa.html">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Manga -->
+            <div class="sach">
+                <div class="sp-menu sach-text">
+                    <a href="#" class="sp-menu1">Top Manga</a>
+                    <a href="#" class="sp-menu2">Manga Comic - Sắp Phát Hành</a>
+                    <a href="#" class="sp-menu2">Manga Gía Tốt</a>
+                    <a href="#" class="sp-menu2">Top Comic</a>
+                    <a href="#" class="sp-menu2">Comic giá tốt</a>
+                    <a href="#" class="sp-menu2">Light Novel Mới</a>
+                    <a href="#" class="sp-menu2">Light Novel Bán Chạy</a>
+                </div>
+                <div class="xuhuong-khung"></div>
+                <div class="sach-content">
+                    <div class="lf">
+                        <div class="grid-sach">
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/manga1.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Chú Thuật Hồi Chiến - Tập 3 - Tặng Kèm Obi và Card.</a></br></br>
+                                    <p style="color: red;">30.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/manga2.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Spy x Family - Tập 5</a></br></br></br>
+                                    <p style="color: red;">25.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/manga3.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Văn Phòng Thám Tử Quái Vật - Tập 4</a></br></br>
+                                    <p style="color: red;">30.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/manga4.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Dr.STONE - Tập 18: Khoa Học Tao Nhã</a></br></br>
+                                    <p style="color: red;">25,000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="grid-sach-content">
+                                <a href="./sp.html"><div>
+                                    <img src="./img/manga5.jpg" alt="" class="sach_img">
+                                </div></a>
+                                <div class="grid-content-1">
+                                    <a href="./sp.html" class="grid-content-text">Thiên Thần Diệt Thế - Tập 23</a></br></br>
+                                    <p style="color: red;">22.000đ</p></br>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                    <i class="fa-solid fa-star icon-grid"></i>
+                                </div>
+                                <div class="themvaogio">
+                                    <i class="fa-solid fa-cart-shopping icon-themvao &nbsp;"></i>
+                                    <a href="./cart.html" class="themvao">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-xemthem sach-xemthem">
+                            <a style="color: white;" href="./thieunhi.html">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer_viencontent">
+                <div class="footer_top">
+                    <i class="fa-solid fa-circle icon-footer1"></i>
+                    <i class="fa-solid fa-circle icon-footer2"></i>
+                    <i class="fa-solid fa-circle icon-footer3"></i>
+                </div>
+                <div class="footer_content">
+                    <div class="footer-left">
+                        <a class="footer-left-gioithieu" href="./gioithieu.html">Về chúng tôi</a>
+                        <p class="footer-left-content">Nhóm 14: đồ án : web bán sách</p>
+                        <i class="fa-brands fa-facebook-f icon-footer-left"></i>
+                        <i class="fa-brands fa-twitter icon-footer-left"></i>
+                        <i class="fa-brands fa-instagram icon-footer-left"></i>
+                        <i class="fa-brands fa-youtube icon-footer-left"></i>
+                    </div>
+                    <div class="footer-right">
+                        <h2 class="footer-head">Thông tin liên hệ</h2>
+                        <i class="fa-solid fa-location-dot icon-footer-left"></i>
+                        <a class="footer-text1">140 Lê trọng tấn</a></br>
+                        <a class="footer-text2">Tây Thành, Tân Phú</a></br>
+                        <a class="footer-text2">Thành phố Hồ chí minh</a></br></br>
+                        <i class="fa-solid fa-phone icon-footer-left icon-footer3"></i>
+                        <a class="footer-text3">+84387093945</a></br></br>
+                        <i class="fa-solid fa-envelope icon-footer-left icon-footer3"></i>
+                        <a class="footer-text3">tieubinhd1@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
